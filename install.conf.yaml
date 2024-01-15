@@ -5,11 +5,9 @@
 # - clean: ['~']
 
 - link:
-    ~/.vim: vim
-    ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
-    ~/Library/Application Support/Code/User/keybindings.json : vs keybindings
+    ~/Library/Application Support/Code/User/keybindings.json : vs/keybindings
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
