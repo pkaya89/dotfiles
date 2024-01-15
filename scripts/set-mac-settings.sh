@@ -6,6 +6,3 @@ defaults write -g InitialKeyRepeat -int 10
 
 # Enable Dark Mode
 defaults write -g AppleInterfaceStyle -string "Dark"
-
-# Apply the changes
-killall SystemUIServer
