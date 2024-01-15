@@ -16,3 +16,4 @@
   - [scripts/brew.sh, Installing Homebrew and packages]
   - [scripts/install-vs-extensions.sh, Installing VSCode extensions]
   - [scripts/restore-steermouse.sh, Copying Steermouse settings]
+  - [scripts/set-mac-settings.sh, Copying Mac Settings]
