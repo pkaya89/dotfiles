@@ -15,3 +15,4 @@
   - [git submodule update --init --recursive, Installing submodules]
   - [scripts/brew.sh, Installing Homebrew and packages]
   - [scripts/install-vs-extensions.sh, Installing VSCode extensions]
+  - [scripts/restore-steermouse, Copying Steermouse settings]
