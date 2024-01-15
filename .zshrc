@@ -102,8 +102,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Added by Pina
 # ---------------------------------------------------------------------------------------------------------------------------------------
+export PATH=/opt/homebrew/bin:$PATH
+
 export NVM_DIR=~/.nvm
+
 source $(brew --prefix nvm)/nvm.sh
+
 #Bump up memory of node so we don't keep crashing: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory
 export NODE_OPTIONS=--max_old_space_size=4096
 export PATH="${HOME}/.pyenv/shims:${PATH}"
@@ -143,7 +147,7 @@ alias usl="cd ~/Documents/Github/lw-unified-identity-app"
 alias gs="git stash"
 
 # Add branch-a-lot to PATH:
-export PATH=$PATH:/Users/pinar.kaya/Documents/Github/branch-a-lot
+export PATH=$PATH:/Users/pkaya/Documents/Github/branch-a-lot
 
 # Link to aliases file inside 'branch-a-lot' repo:
-source /Users/pinar.kaya/Documents/Github/branch-a-lot/aliases.sh
+source /Users/pkaya/Documents/Github/branch-a-lot/aliases.sh

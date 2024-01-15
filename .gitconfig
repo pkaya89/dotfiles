@@ -1,6 +1,6 @@
 [core]
 	compression = 0
-	excludesfile = /Users/pinar.kaya/.gitignore
+	excludesfile = /Users/pkaya/.gitignore
 [http]
 	postBuffer = 1048576000
 [credential]

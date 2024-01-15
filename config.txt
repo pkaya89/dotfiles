@@ -1,1 +1,1 @@
-USER=pinar.kaya
+USER=pkaya
