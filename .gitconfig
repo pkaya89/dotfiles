@@ -1,0 +1,17 @@
+[core]
+	compression = 0
+	excludesfile = /Users/pinar.kaya/.gitignore
+[http]
+	postBuffer = 1048576000
+[credential]
+	helper = store
+[user]
+	name = Pinar Kaya
+	email = 35434040+pkaya89@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	autoSetupRemote = true

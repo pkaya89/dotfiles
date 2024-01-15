@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+
+# - clean: ['~']
+
+- link:
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+    ~/.gitconfig: gitconfig
+    ~/Library/Application Support/Code/User/keybindings.json : vs keybindings
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [scripts/brew.sh, Installing Homebrew and packages]
+  - [scripts/install-vs-extensions.sh, Installing VSCode extensions]

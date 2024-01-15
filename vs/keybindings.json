@@ -1,0 +1,76 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+cmd+f",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+alt+cmd+b",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    { "key": "cmd+1","command": "workbench.action.openEditorAtIndex1" },
+    { "key": "cmd+2","command": "workbench.action.openEditorAtIndex2" },
+    { "key": "cmd+3","command": "workbench.action.openEditorAtIndex3" },
+    { "key": "cmd+4","command": "workbench.action.openEditorAtIndex4" },
+    { "key": "cmd+5","command": "workbench.action.openEditorAtIndex5" },
+    { "key": "cmd+6","command": "workbench.action.openEditorAtIndex6" },
+    { "key": "cmd+7","command": "workbench.action.openEditorAtIndex7" },
+    { "key": "cmd+8","command": "workbench.action.openEditorAtIndex8" },
+    {
+        "key": "cmd+9",
+        "command": "workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "f1",
+        "command": "editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "f2",
+        "command": "editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "f3",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "f4",
+        "command": "editor.foldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "f5",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "f6",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "f12",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "extension.getCurrentLineNumber"
+    }
+]
