@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__country_code</key>
+	<string>GB</string>
+	<key>__display_name</key>
+	<string>mephistofee</string>
+	<key>__oauth_access_token</key>
+	<string>BQCTxTMwAni8VjAti2yeJ2dTNh3dORyy-1LKtNL7FCDezzLVzZx76ggW36aydrhYtPyiWqiYQzYpk7q6oDlRxQYgRDuw0S0xGv3w6FTbJGWEEFj6gqUtQVj0VYDNdxTNXs0MJV4m7btlCc0rGauHy3pF7vL0aC48WH1ucKj0BSK_WWnrKYjhJPqECzMrtOmlKRAZjPHSK8KFZYmBHnKesMcE6avbjI4AcjHhIPQDKgReJA13mzwK1Z8y5xaNX1kQhMWEzK8k2lSAn6vUXhiroLyqdLRk6hjAxm8VZ-jA4zpnKWQ920YDAOo</string>
+	<key>__oauth_client_id</key>
+	<string>00ae762110a74b90a230f655006901a8</string>
+	<key>__oauth_client_secret</key>
+	<string>253dedb8f1694b9cb0422f78ce0ba495</string>
+	<key>__oauth_refresh_token</key>
+	<string>AQCW9C130o5rfbZf6UZFbqWo_If1ld03WleRsiP-u5hQJR54WBl_CpxZlbNc6ZlbSFjLguGuxFZNXx5qpuHNSZ7rMAwMOjmaZkhhWPxW4W1CPWjkap5Z_IuKrJO_DwCb8n8</string>
+	<key>__podcasts_enabled</key>
+	<string>0</string>
+	<key>__use_artworks</key>
+	<string>0</string>
+	<key>__userid</key>
+	<string>mephistofee</string>
+</dict>
+</plist>
